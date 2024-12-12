@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Učenje NodeJS javascript platforme." />
+    <link
+      rel="canonical"
+      href="https://ucenje-programiranja.website/ucenje-nodejs.html"
+    />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="./apple/apple-touch-icon.webp" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Učenje NodeJS(express.js) platforme ☑️</title>
+  </head>
+  <body class="container">
+    <header class="site-header">
+      <div class="site-header-container">
+        <figure class="figure__logo">
+          <img
+            src="./images/logo.webp"
+            class="logo"
+            alt="logo"
+            width="150"
+            height="150"
+          />
+        </figure>
+        <div class="site-header__menu">
+          <nav class="main-navigation">
+            <ul id="local-nav" class="min-list">
+              <li>
+                <a href="./">Home</a>
+              </li>
+              <li>
+                <a href="./ucenje-html-html5.html">HTML 5</a>
+              </li>
+              <li>
+                <a href="./ucenje-css-css3.html">CSS 3</a>
+              </li>
+              <li>
+                <a href="./ucenje-javascripta.html">JavaScript</a>
+              </li>
+              <li>
+                <a href="./ucenje-seo-optimizacije-sajta.html">SEO</a>
+              </li>
+              <li>
+                <a href="./ucenje-nodejs.html">NodeJS</a>
+              </li>
+              <li>
+                <a href="./ucenje-administracije-sajtova.html"
+                  >Administracija</a
+                >
+              </li>
+              <li>
+                <a href="./preporuke-kvalitetnih-usluga.html">Preporuke</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="navigation">
+            <input
+              id="navi-toggle"
+              type="checkbox"
+              class="navigation__checkbox"
+            />
+            <label for="navi-toggle" class="navigation__button">
+              <span class="navigation__icon">&nbsp;</span>
+            </label>
+            <div class="navigation__background">&nbsp;</div>
+            <nav class="navigation__nav">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="./" class="navigation__link">Home</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="./ucenje-html-html5.html" class="navigation__link"
+                    >HTML 5</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="./ucenje-css-css3.html" class="navigation__link"
+                    >CSS 3</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="./ucenje-javascripta.html" class="navigation__link"
+                    >JavaScript</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a
+                    href="./ucenje-seo-optimizacije-sajta.html"
+                    class="navigation__link"
+                    >SEO</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a href="./ucenje-nodejs.html" class="navigation__link"
+                    >NodeJS</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a
+                    href="./ucenje-administracije-sajtova.html"
+                    class="navigation__link"
+                    >Administracija</a
+                  >
+                </li>
+                <li class="navigation__item">
+                  <a
+                    href="./preporuke-kvalitetnih-usluga.html"
+                    class="navigation__link"
+                    >Preporuke</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="home" id="izrada">
+      <div class="title__wrapper">
+        <h1 class="main__title">Vodič za učenje NodeJS javascript platforme</h1>
+
+        <img
+          src="./images/nodejs.webp"
+          class="cover-video dark"
+          alt="nodejs"
+          width="1200"
+          height="647"
+        />
+      </div>
+      <section class="blok__wrapper">
+        <section class="blok__text">
+          <h2>Šta je NodeJS?</h2>
+          <p>
+            NodeJS je platforma kreirana od Ryana Dahla 2009-te godine koja nam
+            omoćuje da pišemo backend(server) kod u javascriptu.
+          </p>
+          <p>
+            Kada je Rhyan izbacio prvu verziju nodejs-a 2009-te javascript
+            zajednica je dobila mogućnost da piše sav kod na obe strane,i na
+            klijentu i na serveru koristeći istu sintaksu javascripta.
+          </p>
+          <p>
+            Nodejs radi na principu ukljucivanja modula koji su nam potrebni da
+            odradimo neku server side logiku za našu web aplikaciju,a module
+            povlačimo i instaliramo iz "NPM" ili ti node package manager-a i sve
+            je kompletno "open source" ili ti besplatno.
+          </p>
+          <p>
+            Ovde ćemo se fokusirati na rad nodejs-a u web aplikacijama mada ga
+            možete koristiti i za ostale vidove programiranja,dakle nodejs kroz
+            svoj "express.js" module pravi radno okruženje za web development pa
+            nije neispravno reći da su to nodejs ili express web aplikacije.
+          </p>
+          <p>
+            Sam express je okvir koji nam daje mogućnost da naš sajt ili
+            stranica rade na webu.
+          </p>
+        </section>
+        <section class="blok__text">
+          <p>
+            O ovoj platformi postoje desetine hiljada video-a i knjiga,a
+            originalnu dokumentaciju za
+            <a
+              class="internal__link"
+              target="_blank"
+              href="https://nodejs.org/docs/latest/api/"
+              >Nodejs pogledajte ovde</a
+            >.
+          </p>
+
+          <figure>
+            <img
+              class="izrada__video"
+              src="./images/nodejs-p.webp"
+              alt="nodejs"
+              width="318"
+              height="159"
+            />
+          </figure>
+
+          <p>
+            Ova platforma nam dolazi sa mnoštvom takozvanih "builtin" ili na
+            našem jeziku ugradjenih modula u samu platformu koje po potrebi
+            možemo koristiti.
+          </p>
+          <p>
+            Kao što već napomenuh nodejs nije napravljen samo za javascript
+            programiranje na webu vec ima mnogo šire mogućnosti zahvaljujući
+            Ryan-u i njegovom radu.
+          </p>
+        </section>
+      </section>
+      <section class="blok__wrapper">
+        <section class="blok__text">
+          <h2>Reference za učenje Nodejs(Express.js)</h2>
+          <p>
+            Kao što već rekoh pored gorenavedene dokumentacije zapravo svaki
+            modul koji nam treba i uključujemo ga u naš web sajt poseduje svoju
+            sopstvenu dokumentaciju,tako da je nodejs cela jedna programerska
+            galaksija.
+          </p>
+          <p>
+            Ko želi da uči nodejs treba prvo da startuje sa laganijim stvarima
+            sa express.js modulom kao što su pravljenje servera i slično.
+          </p>
+          <p>
+            Express.js dokumentaciju možete pogledati na
+            <a
+              class="internal__link"
+              target="_blank"
+              href="https://expressjs.com/"
+              >Express.js docs stranici</a
+            >.
+          </p>
+          <p>
+            Izvora za učenje ima puno u zavisnosti od toga šta želite da
+            postignete sa vašom serverskom logikom.
+          </p>
+          <p>
+            Recimo na youtube-u imate mnogo nodejs express tutorijala,e sad
+            koliko je baš pouzdano to šta kodira svaki dev širom sveta i izbaci
+            na youtube ostavljam vama da procenite. .
+          </p>
+          <p>
+            Pronašao sam jednu sjajnu plejlistu gde se predaje kako napraviti
+            kompletan web chat sa razmenom poruka trenutno i sa svim logikama za
+            privatno i javno ćaskanje.
+          </p>
+        </section>
+        <section class="blok__text">
+          <p>
+            Tu plejlistu sa 90 video-a a svaki u trajanju od 20-75 minuta mozete
+            pronaći na
+            <a
+              class="internal__link"
+              target="_blank"
+              href="https://youtube.com/playlist?list=PLMAITcQAVZ-lGxR9ZJrKS96SUcsiTqv5X&si=ldm1oie_KIMKo4VE"
+              >Full chat app plejlisti</a
+            >
+            na youtube-u.
+          </p>
+          <p>
+            Sve je sjajno uredjeno,npr Part 1 pa Part 2 itd da možete pratiti
+            celokupnu izradu.
+          </p>
+          <p>
+            Generalno chatovi su jako dobri za vežbanje javascripta jer u njima
+            ima stotine logika postignutih javascriptom tako da sam celu listu
+            prošao i mnogo naučio i utvrdio moj već prilično dobar javascript.
+          </p>
+
+          <figure>
+            <img
+              class="izrada__video"
+              loading="lazy"
+              src="./images/nodejs-p2.webp"
+              alt="seo optimizacija"
+              width="196"
+              height="122"
+            />
+          </figure>
+          <p>
+            Cela ta web aplikacija radi na bazi "socket.io" modula i razmenjuje
+            poruke trenutno i jako je dobro proći komletnu izradu od "Part 1"
+            dela do kraja gde imate i na kraju upravljanje korisnicima
+            napravljeno sa "jsonwebtoken" modulom.
+          </p>
+        </section>
+      </section>
+      <p class="text__align">Hvala na poseti i želim vam srećno učenje.</p>
+      <figure>
+        <img
+          id="back-to-top"
+          loading="lazy"
+          class="up"
+          src="./images/up.webp"
+          alt="up"
+          width="48"
+          height="48"
+        />
+      </figure>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <span class="fb__footer__text"
+          >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zapratite me na</span
+        >
+        <a
+          href="https://www.facebook.com/goran.izrada.sajta"
+          rel="nofollow"
+          target="_blank"
+          class="footer__margin"
+        >
+          <img
+            class="fb__image__footer"
+            src="images/fb.webp"
+            alt="facebook icon"
+            width="256"
+            height="256"
+          />
+        </a>
+        <a
+          href="https://twitter.com/GoranIlicIlke1"
+          target="_blank"
+          class="footer__margin"
+          rel="nofollow"
+        >
+          <img
+            class="fb__image__footer"
+            src="images/twitter.webp"
+            width="256"
+            height="256"
+            alt="X twitter icon"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/goran.ilke.ilic/"
+          target="_blank"
+          rel="nofollow"
+        >
+          <img
+            class="fb__image__footer"
+            src="images/instagram.webp"
+            width="16"
+            height="16"
+            alt="instagram icon"
+          />
+        </a>
+      </div>
+      <p>Copyright Vodič za učenje &copy; 2024</p>
+    </footer>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
