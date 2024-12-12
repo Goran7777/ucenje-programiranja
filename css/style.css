@@ -220,7 +220,7 @@ a {
   align-items: center;
   text-decoration: none;
   font-size: 1.8rem;
-  color: white;
+  color: rgb(64, 64, 64);
 }
 @media only screen and (max-width: 768px) {
   .tutorijali__li--link {
